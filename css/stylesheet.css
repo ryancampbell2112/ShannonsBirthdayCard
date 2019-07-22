@@ -5,19 +5,29 @@ html, body{
 
 header{
 	background-color: #00004c; 
+	background-image: url('../img/header-img.jpg');
+	background-repeat: repeat;
 	padding: 10px;
 	text-align: center;
 }
 
 h1{
-	font-size: 100px;
+	font-size: 150px;
 	color: white;
+	text-shadow: 0 4px 20px black;
+	text-transform: uppercase;
+}
+
+h2{
+	font-size: 100px;
+	text-decoration: underline;
 }
 
 header img{
-	border-radius: 200px;
-	width: 300px;
+	border-radius: 300px;
+	width: 400px;
 	border: 5px solid white;
+	box-shadow: 0 10px 20px black;
 }
 
 .content{
