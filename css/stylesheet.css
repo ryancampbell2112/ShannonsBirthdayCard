@@ -14,13 +14,14 @@ header{
 h1{
 	font-size: 150px;
 	color: white;
-	text-shadow: 0 4px 20px black;
+	text-shadow: 10px 10px 30px black;
 	text-transform: uppercase;
 }
 
 h2{
 	font-size: 100px;
 	text-decoration: underline;
+	font-family: ;
 }
 
 header img{
@@ -30,11 +31,34 @@ header img{
 	box-shadow: 0 10px 20px black;
 }
 
+.lewis{
+	max-width: 200px;
+}
+
+.deadpool{
+	max-width: 200px
+}
+
 .content{
 	max-width: 400px
 	margin: 0 auto;
 	padding: 0 20px;
 	text-align: center;
+	background color: #e6e6e6;
+}
+
+.selfie{
+	max-width: 200px;
+}
+
+.firstphoto{
+	max-width: 200px
+}
+
+p{
+	background-color: lightgray;
+	font-size: 30px;
+	border-radius: 20px
 }
 
 ul{
@@ -57,3 +81,4 @@ footer ul{
 
 footer ul li{
 	display: inline;
+}
